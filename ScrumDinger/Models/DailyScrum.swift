@@ -21,6 +21,10 @@ struct DailyScrum: Identifiable {
 		self.lengthInMinutes = lengthInMinutes
 		self.color = color
 	}
+
+	mutating func update(from: DailyScrum.Data) {
+		
+	}
 }
 
 extension DailyScrum {
